@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const CountriesRouter = require('./server/router/countries');
 
 
-const port = process.env.NODE_PORT || '8082';
+const port = process.env.NODE_PORT || '8080';
 const app = express();
 
 app.use(cors());
