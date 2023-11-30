@@ -11,7 +11,7 @@ Bounce Insights is a web application that allows users to explore country detail
 
 ## Live Demo
 
-Visit the live demo: [Bounce Insights](https://bounce-insights-chi.vercel.app/)
+Visit the live demo: [Bounce Insights](https://bounce-insights-rita1773.vercel.app/)
 
 ## Prerequisites
 
