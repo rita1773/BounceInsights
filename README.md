@@ -26,11 +26,11 @@ Visit the live demo: [Bounce Insights](https://bounce-insights-rita1773.vercel.a
    
    cd BounceInsights
 
-   2. Install Dependencies:
+2. **Install Dependencies:**
       npm install
 
 ## Usage
-Start the server :
+**Start the server :**
 node index.js
 The server will start on http://localhost:8080. 
 
@@ -38,9 +38,13 @@ Then start the app using:
 npm start
 The app will start on http://localhost:3000.
 
-Access the App:
+**Access the App:**
 
 Open your web browser and go to http://localhost:3000. 
 You can provide the country name in the input field.
 
-Note: The application is rendered in Vercel through the build folder which needs to be updated during every deployment.
+**Created API:**
+**http://localhost:8080/api/countries/:name**
+
+
+**Note:** The application is rendered in Vercel through the build folder which needs to be updated during every deployment.
