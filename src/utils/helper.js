@@ -12,7 +12,11 @@ export const parseValue = (dataKey, countryData) => {
             dataValue = countryData[dataKey][0]
             break;
         case "maps":
-            dataValue = countryData[dataKey]?.googleMaps
+            dataValue = (
+                <a href={countryData[dataKey]?.googleMaps} target="_blank" rel="noopener noreferrer">
+                    view on map
+                </a>
+            );
             break;
         default:
             dataValue = countryData[dataKey]

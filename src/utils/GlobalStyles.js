@@ -8,6 +8,9 @@ const globalStyles = {
         },
         "h1, h2": {
             fontWeight: '100'
+        },
+        "a": {
+            color: "lightblue"
         }
     },
     wrapper: {

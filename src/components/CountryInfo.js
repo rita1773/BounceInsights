@@ -28,6 +28,7 @@ const styles = {
     },
     dataBox: {
         width: "100%"
+
     }
 }
 
